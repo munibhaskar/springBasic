@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+<context:component-scan base-package="firstProject" />
+
+<!-- <import resource="Spring1.xml"/> -->
+<!-- if we have 2 or three classes it is fine  -->
+<!-- but if we have many then we cannot many then the neutrality came by component scan attribute -->
+<!-- <bean id="car" class="firstProject.Car"> -->
+<!-- </bean> -->
+
+<!-- <bean id="bike" class="firstProject.Bike"> -->
+<!-- </bean> -->
+<!-- <bean id="tyre" class ="firstProject.Tyre"> -->
+<!-- <property name="name" value="MRF"></property></bean> -->
+
+</beans>
